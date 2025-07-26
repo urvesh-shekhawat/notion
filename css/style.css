@@ -162,9 +162,9 @@ main p {
 }
 
 .price {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
-    margin: 5px 0;
+    margin: 2px 0;
     color: #1a1a1a;
 }
 
@@ -178,9 +178,10 @@ main p {
 
 .card1t {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: var(--text-color-dark);
 }
+
 
 button.signup, .get.started {
     padding: 10px;
@@ -189,7 +190,9 @@ button.signup, .get.started {
     border: 1px solid #ccc;
     border-radius: 6px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    width: 250px; 
+    margin-left: 15px ;
 }
 
 .card3 button.get.started {
@@ -235,13 +238,18 @@ ul li {
 .ai {
     font-weight: 800;
     background: #f6f6f6;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 5px;
+    margin-top: 2px;
     border-radius: 6px;
     color: #1a1a1a;
     /* text-align: center; */
     font-size: 14px;
 }
+#logo1{
+    height: 32px;
+
+}
+
 
 .r1 {
     background-color: var(--notion-blue);
@@ -378,6 +386,7 @@ ul li {
     --typography-color: var(--color-gray-500);
     margin-left: auto;
   font-size: 0.9rem;
+  
 
 
     
@@ -391,8 +400,14 @@ ul li {
 .per{
         color: rgb(94, 92, 92);
     font-size: 14px;
-
     margin-left: 5px;
+    margin-bottom: 30px;
+}
+.card2t {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--text-color-dark);
+    margin-top: 70px;
 }
 .u12{font-weight: bold;
     background: #f6f6f6;
@@ -404,7 +419,8 @@ ul li {
 
 }
 
-
-
+.log{
+    display: flex;
+}
 
 
